@@ -34,17 +34,9 @@ function generateMarkdown(answers) {
   
   ${answers.prerequisites}
   
-  ## Installation
-  
-  ${answers.installation}
-  
   ## Usage
   
   ${answers.usage}
-  
-  ## Contributing
-  
-  ${answers.contributing}
   
   
   ${renderLicenseSection(answers.license)}`;
